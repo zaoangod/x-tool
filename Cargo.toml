@@ -1,0 +1,14 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["zaoangod"]
+description = ""
+license = "MIT"
+
+[workspace]
+members = ["x-hash", "x-io"]
+resolver = "2"
+exclude = []
+
+[workspace.dependencies]
